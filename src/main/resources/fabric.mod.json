@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "playtime",
+  "version": "${version}",
+  "name": "Playtime",
+  "description": "Server-side: /playtime shows your or another player's total play time; players can hide their own.",
+  "authors": [
+    "qateralong"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/playtime/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.qateralong.playtime.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
